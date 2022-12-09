@@ -40,17 +40,26 @@ header{
  flex-direction: column;
 }
 .img1{
-    width: 400px;
-    padding: 0px 20px;
-    height: 100%;
+    width: 100%;
+    
 }
 .img1 img{
 width: 100%;
-height: 100%;
+
 }
+.button{
+background-color: crimson;
+border: none;
+color: rgb(248, 249, 250);
+padding: 10px 25px;
+}
+
+
+
 
 .section3{
     display:flex;
+    flex-direction: column;
     height: 100px;  
 }
 
@@ -64,7 +73,7 @@ padding-top: 10%;
 }
 .contenedor1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 .text1{
     text-align: left;
